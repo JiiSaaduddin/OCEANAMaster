@@ -1,4 +1,11 @@
-# OCEANAMaster 
+# TASK TO DO #
+ - Attendance (DTR): Computes multiple/duplicate 'Check In' & 'Check Out' data time_in to time_out column based
+ - Payroll Process: add SSS contribution bracket table to payroll computation
+ - Payroll Process: add Pag-Ibig Contribution to payroll computation
+ - Payroll Process: add Phic Contribution to payroll computation
+
+ 
+# Welcome to OCEANA HR Solutions 
 This document is a proposal prepared for the HR Master Management project proposed for . (“ABFI”) or ANA’S BREEDERS FARMS, INC. 
 
 # 1.2 Statement of the Problem
