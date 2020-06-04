@@ -3,7 +3,7 @@
  - Payroll Process: add SSS contribution bracket table to payroll computation
  - Payroll Process: add Pag-Ibig Contribution to payroll computation
  - Payroll Process: add Phic Contribution to payroll computation
-
+ - Payroll Process: payroll code, payroll period, filter department and employee
  
 # Welcome to OCEANA HR Solutions 
 This document is a proposal prepared for the HR Master Management project proposed for . (“ABFI”) or ANA’S BREEDERS FARMS, INC. 
