@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>OCEANA Payroll Management System</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+</style>
+ 
+</head>
+<body>
+
+<div class="container"> 
+	<h2>Welcome to OCEANA HR Solutions!</h2>
+	<p>This System is designed for quick, easy and mobile friendly payroll and information system. Check out <a href="https://github.com/JiiSaaduddin/HRMaster/commits/master" target="_new"><b>Daily Works</b></a> of developers!</p> 
+	<table class="table">
+		<tr><th></th><th></th><th></th></tr>
+		<tr>
+			<th class="text-center"><h3>Phase #1</h3><span class="label label-info">06/01/2020</span> - <span class="label label-primary">08/01/2020</span></th>
+			<th class="text-center"><h3>Phase #2</h3><span class="label label-info">08/01/2020</span> - <span class="label label-primary">08/15/2020</span></th>
+			<th class="text-center"><h3>Phase #3</h3><span class="label label-info">08/15/2020</span> - <span class="label label-primary">08/31/2020</span></th>
+		</tr>
+		<tr>
+			<td>
+					1. Attendance (DTR) <span class="label label-danger">JNP</span>
+				<br>2. Database Structure <span class="label label-success">JIS</span>
+				<br>3. Basic Employee Master <span class="label label-success">JIS</span>
+				<br>4. Basic Payroll Process <span class="label label-danger">JNP</span>
+				<br>5. Basic Payroll Report <span class="label label-danger">JNP</span>
+			</td>
+			<td>
+					1. Loan Deductions
+				<br>2. Employee Position Templates (Ranking) <span class="label label-success">JIS</span>
+				<br>3. Overtime/UT Management <span class="label label-success">JIS</span>
+				<br>4. Schedule Management <span class="label label-success">JIS</span>
+				<br>5. Leave Management <span class="label label-success">JIS</span> <span class="label label-danger">JNP</span> 
+				<br>6. Advanced Payroll Process <span class="label label-danger">JNP</span> <span class="label label-success">JIS</span>
+				<br>7. Advanced Payroll Report <span class="label label-danger">JNP</span> <span class="label label-success">JIS</span>
+			</td>
+			<td>
+					1. Advanced Employee Master <span class="label label-success">JIS</span>
+				<br>2. User Level management <span class="label label-success">JIS</span>
+				<br>3. Apply Employee's Account <span class="label label-success">JIS</span>
+			</td>
+		</tr>
+
+		<footer>
+			<tr> 
+				<th>LEGEND:
+					<h6>Jii Saaduddin <span class="label label-success">JIS</span></h6>
+					<h6>Jayson Parado <span class="label label-danger">JNP</span></h6>
+				</th> 
+			</tr>
+		</footer>
+	</table> 
+	
+	<div class="tab">
+		<button class="tablinks" onclick="openCity(event, 'Phase1')">Phase 1</button>
+		<button class="tablinks" onclick="openCity(event, 'Phase2')">Phase 2</button>
+		<button class="tablinks" onclick="openCity(event, 'Phase3')">Phase 3</button>
+	</div>
+
+	<div id="Phase1" class="tabcontent">
+		<h3>Phase 1</h3>
+		<p>Attendance (DTR)
+			<div class="progress">
+				<div class="progress-bar progress-bar-default" role="progressbar"
+				aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" style="width:5%">5%</div>
+			</div>
+		</p>
+		<p>Database Structure
+			<div class="progress">
+				<div class="progress-bar progress-bar-striped active" role="progressbar"
+				aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:90%">90%</div>
+			</div>
+		</p>
+		<p>Basic Employee Master 
+			<div class="progress">
+				<div class="progress-bar progress-bar-striped " role="progressbar"
+				aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">80%</div>
+			</div>
+		</p>
+		<p>Basic Payroll Process 
+			<div class="progress">
+				<div class="progress-bar progress-bar-warning" role="progressbar"
+				aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:1%">0%</div>
+			</div>
+		</p>
+		<p>Basic Payroll Report 
+			<div class="progress">
+				<div class="progress-bar progress-bar-warning" role="progressbar"
+				aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:1%">0%</div>
+			</div>
+		</p>
+	 
+	</div>
+
+	<div id="Phase2" class="tabcontent">
+		<h3>Phase 2</h3>
+		<p>Loan Deductions
+			<div class="progress">
+				<div class="progress-bar progress-bar-warning" role="progressbar"
+				aria-valuenow="1" aria-valuemin="0" aria-valuemax="100" style="width:1%">1%</div>
+			</div>
+		</p>
+		<p>Employee Position Templates (Ranking)
+			<div class="progress">
+				<div class="progress-bar progress-bar-warning" role="progressbar"
+				aria-valuenow="1" aria-valuemin="0" aria-valuemax="100" style="width:1%">1%</div>
+			</div>
+		</p>
+		<p>Overtime/UT Management
+			<div class="progress">
+				<div class="progress-bar progress-bar-warning" role="progressbar"
+				aria-valuenow="1" aria-valuemin="0" aria-valuemax="100" style="width:1%">1%</div>
+			</div>
+		</p>
+		<p>Schedule Management
+			<div class="progress">
+				<div class="progress-bar progress-bar-warning" role="progressbar"
+				aria-valuenow="1" aria-valuemin="0" aria-valuemax="100" style="width:1%">1%</div>
+			</div>
+		</p>
+		<p>Leave Management
+			<div class="progress">
+				<div class="progress-bar progress-bar-warning" role="progressbar"
+				aria-valuenow="1" aria-valuemin="0" aria-valuemax="100" style="width:1%">1%</div>
+			</div>
+		</p>
+		<p>Advanced Payroll Process
+			<div class="progress">
+				<div class="progress-bar progress-bar-warning" role="progressbar"
+				aria-valuenow="1" aria-valuemin="0" aria-valuemax="100" style="width:1%">1%</div>
+			</div>
+		</p>
+		<p>Advanced Payroll Report
+			<div class="progress">
+				<div class="progress-bar progress-bar-warning" role="progressbar"
+				aria-valuenow="1" aria-valuemin="0" aria-valuemax="100" style="width:1%">1%</div>
+			</div>
+		</p>
+	</div>
+
+	<div id="Phase3" class="tabcontent">
+		<h3>Phase 3</h3>
+			<p>Advanced Employee Master
+			<div class="progress">
+				<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar"
+				aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">70%</div>
+			</div>
+		</p>
+			<p>User Level management
+			<div class="progress">
+				<div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar"
+				aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">40%</div>
+			</div>
+		</p>
+			<p>Apply Employee's Account
+			<div class="progress">
+				<div class="progress-bar progress-bar-warning" role="progressbar"
+				aria-valuenow="1" aria-valuemin="0" aria-valuemax="100" style="width:1%">1%</div>
+			</div>
+		</p>
+	</div>
+ 
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+    
+</body>
+</html>
